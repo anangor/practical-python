@@ -26,4 +26,7 @@ while principal > 0:
             principal = 0
 
     months = months + 1
-    print('Month: ', months, 'Total paid:', total_paid, 'Principal:', principal)
+
+output = f'Months {months}, Total paid: {total_paid: 0.2f}'
+print(output)
+    #print('Month: ', months, 'Total paid:', total_paid, 'Principal:', principal)
